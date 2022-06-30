@@ -23,6 +23,9 @@ ng generate reducer User --reducers reducers/index.ts
 ng generate action Board --group
 
 ## install ngrx effects latest
-ng add @ngrx/effects@latest
+ng add @ngrx/effects@latest  not going to use it in this project
+
+install selectors
+ng generate selector Board --group
 
 
