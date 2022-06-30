@@ -6,3 +6,6 @@ cd into the client folder
 
 ## install schematic
 ng add @ngrx/schematics@latest
+
+## install devtools
+ng add @ngrx/store-devtools@latest
