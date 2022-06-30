@@ -12,3 +12,6 @@ ng add @ngrx/store-devtools@latest
 
 ## install ngrx store latest
 ng add @ngrx/store@latest
+
+## install store state at root
+ng generate store State --root --module app.module.ts
