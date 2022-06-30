@@ -25,7 +25,10 @@ ng generate action Board --group
 ## install ngrx effects latest
 ng add @ngrx/effects@latest  not going to use it in this project
 
-install selectors
+## install selectors
 ng generate selector Board --group
+
+## install components
+ng g c components/board
 
 
