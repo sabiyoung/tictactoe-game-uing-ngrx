@@ -9,3 +9,6 @@ ng add @ngrx/schematics@latest
 
 ## install devtools
 ng add @ngrx/store-devtools@latest
+
+## install ngrx store latest
+ng add @ngrx/store@latest
