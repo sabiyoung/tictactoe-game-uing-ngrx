@@ -1,4 +1,4 @@
-# tictactoe-game-uing-
+# tictactoe-game-uing-ngrx
 
 ## install/generate the app
 ng new client --routing --style scss --skip-tests
@@ -21,3 +21,8 @@ ng generate reducer User --reducers reducers/index.ts
 
 ## install board action
 ng generate action Board --group
+
+## install ngrx effects latest
+ng add @ngrx/effects@latest
+
+
