@@ -15,3 +15,6 @@ ng add @ngrx/store@latest
 
 ## install store state at root
 ng generate store State --root --module app.module.ts
+
+## install board reducer along with index.ts file
+ng generate reducer User --reducers reducers/index.ts
