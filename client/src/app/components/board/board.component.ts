@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { State } from 'src/app/reducers/board.reducer';
+import { selectSquares } from './../../selectors/board.selectors';
 
 @Component({
   selector: 'app-board',
@@ -6,8 +9,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./board.component.scss']
 })
 export class BoardComponent implements OnInit {
-
-  constructor() { }
+  squares$ = this.store.select(selectSquares);
+  constructor(
+    private store: Store<State>
+  ) { }
 
   ngOnInit(): void {
   }

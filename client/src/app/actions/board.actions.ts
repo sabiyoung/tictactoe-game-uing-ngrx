@@ -1,15 +1,13 @@
 import { createAction, props } from '@ngrx/store';
 
-export const loadBoards = createAction(
-  '[Board] Load Boards'
+
+export const ActionChangeSquare = createAction(
+  '[Board] Change Square',
+  props<{ square: number, value: string }>()
 );
 
-export const loadBoardsSuccess = createAction(
-  '[Board] Load Boards Success',
-  props<{ data: any }>()
+export const ActionWinner = createAction(
+  '[Board] Winner',
+  props<{ winner: string }>()
 );
 
-export const loadBoardsFailure = createAction(
-  '[Board] Load Boards Failure',
-  props<{ error: any }>()
-);

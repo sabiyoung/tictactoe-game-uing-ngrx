@@ -1,1 +1,6 @@
 <p>board works!</p>
+<div class="sq-container" *ngFor="let item of squares$ | async">
+  <button>
+{{ item}}
+  </button>
+</div>
